@@ -124,7 +124,7 @@ while not exit:
         player[t].x+=player[t].vx
         player[t].y+=player[t].vy
     elif key[pygame.K_s]:
-        player[t].x-=player.vx
+        player[t].x-=player[t].vx
         player[t].y-=player[t].vy
     elif key[pygame.K_a]:
         player[t].x+=player[t].vy
